@@ -17,15 +17,20 @@ bot = InstaBot(
     password="08044995aA",
     like_per_day=5000,
     comments_per_day=0, #desactivado
-    tag_list=["urbex", "urbexcatalunya", "urbexbarcelona"],
-    tag_blacklist=['rain', 'thunderstorm'],
+    tag_list=["urbex", "urbexcatalunya", "urbexbarcelona", "urbexbadalona", "urbexbcn", "urbexbdn"
+             , "urbexpeople", "olvidado", "decay", "decay_nation", "neverstopexploring", "abandoned"
+             , "_killer__elite", "abandonado", "discovering", "discoveringnewplaces", "random", "nightmare"
+             , "house", "houses", "architecture", "land", "landscape", "mansion"
+             , "abandonedplaces", "forgottenplaces", "abandonedSpain", "AbandonedSpainWorld", "sombrexplore", "urbexexploring"
+             , "exploreurban", "estaes_abandoned", "urbex_supreme"],
+    tag_blacklist=['hashBAN3ADOS', 'hashBAN3ADOSs2'],
     user_blacklist={},
-    max_like_for_one_tag=50,
-    follow_per_day=100,
+    max_like_for_one_tag=100,
+    follow_per_day=50,
     follow_time=1 * 30,
     unfollow_per_day=300,
-    unfollow_break_min=15,
-    unfollow_break_max=30,
+    unfollow_break_min=30,
+    unfollow_break_max=60,
     log_mod=0,
     proxy='',
     # List of list of words, each of which will be used to generate comment
