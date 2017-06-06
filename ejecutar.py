@@ -14,7 +14,7 @@ from unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
     login="abandonedplaces.es",
-    password="08044995aA",
+    password="###",
     like_per_day=5000,
     comments_per_day=0, #desactivado
     tag_list=["urbex", "urbexcatalunya", "urbexbarcelona", "urbexbadalona", "urbexbcn", "urbexbdn"
@@ -26,8 +26,8 @@ bot = InstaBot(
     tag_blacklist=['hashBAN3ADOS', 'hashBAN3ADOSs2'],
     user_blacklist={},
     max_like_for_one_tag=100,
-    follow_per_day=50,
-    follow_time=1 * 30,
+    follow_per_day=100,
+    follow_time=1 * 1,
     unfollow_per_day=300,
     unfollow_break_min=30,
     unfollow_break_max=60,
